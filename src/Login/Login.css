@@ -1,0 +1,42 @@
+.bdy{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* min-height: 450px; */
+}
+
+nav{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 70px;
+    background: rgb(47, 45, 75);
+    text-align: center;
+}
+
+nav h1{
+    position: absolute;
+    color: white;
+}
+
+.loginDiv{
+    
+    width: 350px;
+    height: 580px;
+    background: rgb(52, 59, 77);
+    border-radius: 50px;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.input{
+    margin-top: 30px;
+    display: block;
+    padding: 15px 60px;
+    border-radius: 10px;
+    border: none;
+}
